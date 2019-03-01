@@ -31,7 +31,6 @@ Or it will fail like this:
 
 with output from the other build like this:
 ```
-[INFO] --- docker-maven-plugin:0.27.2:start (psb-all) @ dmp-sample-helloworld ---
-[ERROR] DOCKER> Error occurred during container startup, shutting down...
-[ERROR] DOCKER> I/O Error [Unable to create container for [psb-all] : Conflict. The container name "/build-2-psb-all-1" is already in use by container "e9fd98cd3a635b3f7a366b9d450ce126ea7ac7663f69fe3f9dac940906fdfd70". You have to remove (or rename) that container to be able to reuse that name. (Conflict: 409)]
+[INFO] --- docker-maven-plugin:0.27.2:stop (stop) @ dmp-sample-helloworld ---
+[INFO] DOCKER> [psb-all:latest] "psb-all": Stop and removed container bfdef268d7e9 after 0 ms
 ```
